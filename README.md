@@ -14,31 +14,7 @@ The design is modeled on a commercial synth VCO/LFO/amplifier reference circuit,
 
 ## System Architecture
 
-```
-                 ┌─────┐
-                 │ LFO │
-                 └──┬──┘
-        ┌───────────┼───────────┐
-        ▼           ▼           ▼
-      ┌────┐      ┌────┐     ┌────────┐
-      │ CV │      │ FM │     │ PWM IN │
-      └─┬──┘      └─┬──┘     └───┬────┘
-        └─────┬──────┴─────┬─────┘
-             ▼             ▼            ▼
-        ┌──────────┐  ┌──────────┐  ┌──────────┐
-        │ Triangle │  │ Sawtooth │  │  Pulse   │
-        │  Output  │  │  Output  │  │  Output  │
-        └────┬─────┘  └────┬─────┘  └────┬─────┘
-             └─────────────┼─────────────┘
-                            ▼
-                     ┌─────────────┐
-                     │ 20x Amplifier│
-                     └──────┬──────┘
-                            ▼
-                       ┌─────────┐
-                       │ Speaker │
-                       └─────────┘
-```
+![Block Diagram](./schematics/block_diagram.png)
 
 **Signal stages:**
 
