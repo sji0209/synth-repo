@@ -37,13 +37,16 @@ The design is modeled on a commercial synth VCO/LFO/amplifier reference circuit,
 ![Amplifier Schematic](./schematics/amplifier.png)
 
 ### Breadboard Build
-![Breadboard Build](./photos/breadboard-overview.jpg)
+![Breadboard Build](./photos:videos/breadboard-overview.png)
 
-*Oscilloscope capture of pulse wave output:*
-![Oscilloscope Output](./photos/scope-pulse-wave.jpg)
+*Oscilloscope capture of saw, square, and triangle outputs:*
+![Oscilloscope Output1](./photos:videos/sawtooth.jpeg)
+![Oscilloscope Output2](./photos:videos/square.jpeg)
+![Oscilloscope Output3](./photos:videos/triangle.jpeg)
+
 
 ### Demo Video
-[Video of Project](#) <!-- replace with hosted video link -->
+![Demo Video](./photos:videos/demo_video.mp4)
 
 ## Bill of Materials
 
