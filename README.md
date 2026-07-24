@@ -24,7 +24,7 @@ The design is modeled on a commercial synth VCO/LFO/amplifier reference circuit,
       │ CV │      │ FM │     │ PWM IN │
       └─┬──┘      └─┬──┘     └───┬────┘
         └─────┬──────┴─────┬─────┘
-              ▼             ▼            ▼
+             ▼             ▼            ▼
         ┌──────────┐  ┌──────────┐  ┌──────────┐
         │ Triangle │  │ Sawtooth │  │  Pulse   │
         │  Output  │  │  Output  │  │  Output  │
@@ -50,9 +50,6 @@ The design is modeled on a commercial synth VCO/LFO/amplifier reference circuit,
 > **Note:** This build omits the low-pass filter present in the original reference design. Its function was limited to shaping the final audio output by attenuating high frequencies; omission does not affect core oscillator/modulation behavior.
 
 ## Schematic & Hardware
-
-### Schematic (Scheme-it)
-![Synthesizer Schematic](./schematics/scheme-it-diagram.png)
 
 *VCO / Saw-to-Triangle stage:*
 ![VCO Schematic](./schematics/vco-saw-triangle.png)
